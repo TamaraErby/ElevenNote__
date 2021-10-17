@@ -63,6 +63,10 @@
     <Compile Include="Migrations\202110101712539_InitialMigration.Designer.cs">
       <DependentUpon>202110101712539_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202110172204296_Update-Database.cs" />
+    <Compile Include="Migrations\202110172204296_Update-Database.Designer.cs">
+      <DependentUpon>202110172204296_Update-Database.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202110101712539_InitialMigration.resx">
       <DependentUpon>202110101712539_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110172204296_Update-Database.resx">
+      <DependentUpon>202110172204296_Update-Database.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
